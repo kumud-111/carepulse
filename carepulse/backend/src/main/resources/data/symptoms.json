@@ -1,0 +1,994 @@
+[
+ {
+  "id": "headache",
+  "region": "head",
+  "en": "Headache",
+  "hi": "सिरदर्द",
+  "hing": "Sir dard",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "headache",
+   "sir dard",
+   "sar dard",
+   "sirdard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "migraine",
+  "region": "head",
+  "en": "One-sided throbbing headache, light bothers me",
+  "hi": "आधे सिर में तेज़ दर्द, रोशनी चुभती है",
+  "hing": "Aadhe sir mein tez dard, roshni chubhti hai",
+  "weight": 3,
+  "specialty": "Neurologist",
+  "keywords": [
+   "migraine",
+   "aadhe sir"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "dizziness",
+  "region": "head",
+  "en": "Dizziness",
+  "hi": "चक्कर आना",
+  "hing": "Chakkar aana",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "dizzy",
+   "dizziness",
+   "chakkar"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "fainting",
+  "region": "head",
+  "en": "Fainting / blackout",
+  "hi": "बेहोशी जैसा लगना",
+  "hing": "Behoshi jaisa lagna",
+  "weight": 4,
+  "specialty": "Neurologist",
+  "keywords": [
+   "fainting",
+   "fainted",
+   "blackout",
+   "behosh hone"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "sudden_headache",
+  "region": "head",
+  "en": "Sudden, worst headache of my life",
+  "hi": "अचानक बहुत तेज़ सिरदर्द",
+  "hing": "Achanak bahut tez sir dard",
+  "weight": 5,
+  "specialty": "Neurologist",
+  "keywords": [
+   "worst headache",
+   "sudden headache"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "stroke_signs",
+  "region": "head",
+  "en": "Face drooping, slurred speech or one-side weakness",
+  "hi": "चेहरा टेढ़ा, बोलने में दिक्कत, एक तरफ कमज़ोरी",
+  "hing": "Chehra tedha, bolne mein dikkat, ek taraf kamzori",
+  "weight": 5,
+  "specialty": "Neurologist",
+  "keywords": [
+   "face droop",
+   "slurred",
+   "lakwa",
+   "one side weak"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "red_eyes",
+  "region": "eyes",
+  "en": "Red or itchy eyes",
+  "hi": "आँखें लाल या खुजली",
+  "hing": "Aankhein laal ya khujli",
+  "weight": 1,
+  "specialty": "Ophthalmologist",
+  "keywords": [
+   "red eye",
+   "eyes red",
+   "aankh lal",
+   "aankh me khujli"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "watery_eyes",
+  "region": "eyes",
+  "en": "Watery eyes / discharge",
+  "hi": "आँखों से पानी या कीचड़",
+  "hing": "Aankhon se paani ya keechad",
+  "weight": 1,
+  "specialty": "Ophthalmologist",
+  "keywords": [
+   "watery eye",
+   "aankh se pani",
+   "eye discharge"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "eye_pain",
+  "region": "eyes",
+  "en": "Eye pain",
+  "hi": "आँख में दर्द",
+  "hing": "Aankh mein dard",
+  "weight": 2,
+  "specialty": "Ophthalmologist",
+  "keywords": [
+   "eye pain",
+   "aankh dard",
+   "aankh me dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "blurry_vision",
+  "region": "eyes",
+  "en": "Blurry vision",
+  "hi": "धुंधला दिखना",
+  "hing": "Dhundhla dikhna",
+  "weight": 3,
+  "specialty": "Ophthalmologist",
+  "keywords": [
+   "blurry",
+   "blurred vision",
+   "dhundhla"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "sore_throat",
+  "region": "ent",
+  "en": "Sore throat",
+  "hi": "गले में खराश / दर्द",
+  "hing": "Gale mein kharash / dard",
+  "weight": 1,
+  "specialty": "ENT",
+  "keywords": [
+   "sore throat",
+   "gala kharab",
+   "gale me dard",
+   "gala dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "runny_nose",
+  "region": "ent",
+  "en": "Runny or blocked nose, sneezing",
+  "hi": "नाक बहना / बंद, छींकें",
+  "hing": "Naak behna ya band, chheenkein",
+  "weight": 1,
+  "specialty": "ENT",
+  "keywords": [
+   "runny nose",
+   "blocked nose",
+   "naak behna",
+   "naak band",
+   "sneez",
+   "chheenk"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "ear_pain",
+  "region": "ent",
+  "en": "Ear pain",
+  "hi": "कान में दर्द",
+  "hing": "Kaan mein dard",
+  "weight": 2,
+  "specialty": "ENT",
+  "keywords": [
+   "ear pain",
+   "kaan dard",
+   "kaan me dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "toothache",
+  "region": "ent",
+  "en": "Toothache / swollen gums",
+  "hi": "दाँत दर्द / मसूड़ों में सूजन",
+  "hing": "Daant dard / masoodon mein sujan",
+  "weight": 2,
+  "specialty": "Dentist",
+  "keywords": [
+   "toothache",
+   "daant dard",
+   "daant me dard",
+   "gums swollen",
+   "masoode"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "loss_smell",
+  "region": "ent",
+  "en": "Loss of smell or taste",
+  "hi": "गंध या स्वाद न आना",
+  "hing": "Gandh ya swaad na aana",
+  "weight": 2,
+  "specialty": "ENT",
+  "keywords": [
+   "loss of smell",
+   "no smell",
+   "smell nahi",
+   "taste nahi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "cough",
+  "region": "chest",
+  "en": "Cough",
+  "hi": "खाँसी",
+  "hing": "Khaansi",
+  "weight": 1,
+  "specialty": "General Physician",
+  "keywords": [
+   "cough",
+   "khansi",
+   "khasi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "breathless",
+  "region": "chest",
+  "en": "Shortness of breath",
+  "hi": "साँस फूलना",
+  "hing": "Saans phoolna",
+  "weight": 4,
+  "specialty": "Pulmonologist",
+  "keywords": [
+   "shortness of breath",
+   "breathless",
+   "saans phoolna",
+   "saans fulna"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "wheezing",
+  "region": "chest",
+  "en": "Wheezing / chest tightness",
+  "hi": "साँस में सीटी / सीने में जकड़न",
+  "hing": "Saans mein seeti / seene mein jakdan",
+  "weight": 3,
+  "specialty": "Pulmonologist",
+  "keywords": [
+   "wheez",
+   "seene me jakdan",
+   "tightness"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "palpitations",
+  "region": "chest",
+  "en": "Racing or irregular heartbeat",
+  "hi": "दिल की धड़कन तेज़ / अनियमित",
+  "hing": "Dil ki dhadkan tez ya aniyamit",
+  "weight": 3,
+  "specialty": "Cardiologist",
+  "keywords": [
+   "palpitation",
+   "dhadkan",
+   "heart racing"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "chest_pain",
+  "region": "chest",
+  "en": "Chest pain or pressure",
+  "hi": "सीने में दर्द / दबाव",
+  "hing": "Seene mein dard ya dabav",
+  "weight": 5,
+  "specialty": "Cardiologist",
+  "keywords": [
+   "chest pain",
+   "seene me dard",
+   "chest pressure",
+   "seene mein dard"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "severe_breathless",
+  "region": "chest",
+  "en": "Cannot breathe / cannot speak full sentences",
+  "hi": "साँस नहीं आ रही",
+  "hing": "Saans nahi aa rahi",
+  "weight": 5,
+  "specialty": "Pulmonologist",
+  "keywords": [
+   "can't breathe",
+   "cannot breathe",
+   "saans nahi",
+   "saans nahi aa rahi"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "cough_blood",
+  "region": "chest",
+  "en": "Coughing up blood",
+  "hi": "खाँसी में खून",
+  "hing": "Khaansi mein khoon",
+  "weight": 5,
+  "specialty": "Pulmonologist",
+  "keywords": [
+   "cough blood",
+   "coughing blood",
+   "khoon ki khansi",
+   "khansi me khoon"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "stomach_pain",
+  "region": "abdomen",
+  "en": "Stomach pain",
+  "hi": "पेट दर्द",
+  "hing": "Pet dard",
+  "weight": 2,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "stomach pain",
+   "stomach ache",
+   "pet dard",
+   "pet me dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "acidity",
+  "region": "abdomen",
+  "en": "Acidity / burning in chest or stomach",
+  "hi": "एसिडिटी / जलन",
+  "hing": "Acidity / seene ya pet mein jalan",
+  "weight": 1,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "acidity",
+   "heartburn",
+   "jalan",
+   "gas ban"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "nausea",
+  "region": "abdomen",
+  "en": "Nausea",
+  "hi": "जी मिचलाना",
+  "hing": "Ji michlana",
+  "weight": 1,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "nausea",
+   "ji michlana",
+   "mitli"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "vomiting",
+  "region": "abdomen",
+  "en": "Vomiting",
+  "hi": "उल्टी",
+  "hing": "Ulti",
+  "weight": 2,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "vomit",
+   "ulti",
+   "ulti ho"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "diarrhea",
+  "region": "abdomen",
+  "en": "Loose motions",
+  "hi": "दस्त / लूज़ मोशन",
+  "hing": "Dast / loose motion",
+  "weight": 2,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "diarrhea",
+   "diarrhoea",
+   "loose motion",
+   "dast",
+   "patla potty"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "constipation",
+  "region": "abdomen",
+  "en": "Constipation",
+  "hi": "कब्ज़",
+  "hing": "Kabz",
+  "weight": 1,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "constipation",
+   "kabz",
+   "kabj"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "bloating",
+  "region": "abdomen",
+  "en": "Gas / bloating",
+  "hi": "गैस / पेट फूलना",
+  "hing": "Gas / pet phoolna",
+  "weight": 1,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "bloating",
+   "bloated",
+   "pet fulna",
+   "gas"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "burning_urine",
+  "region": "abdomen",
+  "en": "Burning while passing urine",
+  "hi": "पेशाब में जलन",
+  "hing": "Peshab mein jalan",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "burning urine",
+   "urine burning",
+   "peshab me jalan",
+   "peshab jalan"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "frequent_urine",
+  "region": "abdomen",
+  "en": "Passing urine very often",
+  "hi": "बार-बार पेशाब",
+  "hing": "Baar-baar peshab",
+  "weight": 2,
+  "specialty": "Diabetologist",
+  "keywords": [
+   "frequent urination",
+   "baar baar peshab",
+   "frequent urine"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "period_pain",
+  "region": "abdomen",
+  "en": "Painful periods",
+  "hi": "माहवारी में दर्द",
+  "hing": "Mahwari mein dard",
+  "weight": 2,
+  "specialty": "Gynecologist",
+  "keywords": [
+   "period pain",
+   "menstrual cramp",
+   "periods me dard",
+   "mahwari dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "irregular_periods",
+  "region": "abdomen",
+  "en": "Irregular or missed periods",
+  "hi": "अनियमित माहवारी",
+  "hing": "Aniyamit mahwari",
+  "weight": 2,
+  "specialty": "Gynecologist",
+  "keywords": [
+   "irregular period",
+   "missed period",
+   "periods late",
+   "periods nahi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "severe_abd_pain",
+  "region": "abdomen",
+  "en": "Severe, sudden stomach pain",
+  "hi": "पेट में अचानक तेज़ दर्द",
+  "hing": "Pet mein achanak tez dard",
+  "weight": 5,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "severe stomach pain",
+   "unbearable stomach"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "blood_stool",
+  "region": "abdomen",
+  "en": "Blood in stool or black stool",
+  "hi": "मल में खून / काला मल",
+  "hing": "Mal mein khoon / kaala mal",
+  "weight": 4,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "blood in stool",
+   "black stool",
+   "potty me khoon"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "pregnancy_bleeding",
+  "region": "abdomen",
+  "en": "Heavy bleeding in pregnancy",
+  "hi": "गर्भावस्था में ज़्यादा रक्तस्राव",
+  "hing": "Pregnancy mein zyada bleeding",
+  "weight": 5,
+  "specialty": "Gynecologist",
+  "keywords": [
+   "bleeding in pregnancy",
+   "heavy bleeding",
+   "pregnancy bleeding"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "back_pain",
+  "region": "back",
+  "en": "Lower back pain",
+  "hi": "कमर दर्द",
+  "hing": "Kamar dard",
+  "weight": 2,
+  "specialty": "Orthopedic",
+  "keywords": [
+   "back pain",
+   "kamar dard",
+   "kamar me dard",
+   "backache"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "neck_pain",
+  "region": "back",
+  "en": "Neck or shoulder pain",
+  "hi": "गर्दन / कंधे में दर्द",
+  "hing": "Gardan / kandhe mein dard",
+  "weight": 2,
+  "specialty": "Orthopedic",
+  "keywords": [
+   "neck pain",
+   "gardan dard",
+   "shoulder pain",
+   "kandhe me dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "joint_pain",
+  "region": "limbs",
+  "en": "Joint pain or stiffness",
+  "hi": "जोड़ों में दर्द / अकड़न",
+  "hing": "Jodon mein dard / akdan",
+  "weight": 2,
+  "specialty": "Orthopedic",
+  "keywords": [
+   "joint pain",
+   "jodon me dard",
+   "joints",
+   "ghutne me dard",
+   "knee pain"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "muscle_pain",
+  "region": "limbs",
+  "en": "Muscle pain / body ache",
+  "hi": "माँसपेशियों / बदन में दर्द",
+  "hing": "Maspeshiyon / badan mein dard",
+  "weight": 1,
+  "specialty": "General Physician",
+  "keywords": [
+   "body ache",
+   "muscle pain",
+   "badan dard",
+   "badan me dard"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "numbness",
+  "region": "limbs",
+  "en": "Numbness or tingling",
+  "hi": "सुन्नपन / झुनझुनी",
+  "hing": "Sunnpan / jhunjhuni",
+  "weight": 2,
+  "specialty": "Neurologist",
+  "keywords": [
+   "numbness",
+   "tingling",
+   "jhunjhuni",
+   "sunn"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "leg_swelling",
+  "region": "limbs",
+  "en": "Swollen feet or legs",
+  "hi": "पैरों में सूजन",
+  "hing": "Pairon mein sujan",
+  "weight": 3,
+  "specialty": "Cardiologist",
+  "keywords": [
+   "swollen feet",
+   "swollen legs",
+   "pair me sujan",
+   "pairon me sujan"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "injury",
+  "region": "limbs",
+  "en": "Injury, suspected fracture or sprain",
+  "hi": "चोट / हड्डी टूटने का शक",
+  "hing": "Chot / haddi toote ka shak",
+  "weight": 4,
+  "specialty": "Orthopedic",
+  "keywords": [
+   "fracture",
+   "broken bone",
+   "sprain",
+   "haddi toot",
+   "chot"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "rash",
+  "region": "skin",
+  "en": "Rash or red patches",
+  "hi": "दाने / लाल चकत्ते",
+  "hing": "Daane / laal chakatte",
+  "weight": 2,
+  "specialty": "Dermatologist",
+  "keywords": [
+   "rash",
+   "daane",
+   "chakatte"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "itching",
+  "region": "skin",
+  "en": "Itching",
+  "hi": "खुजली",
+  "hing": "Khujli",
+  "weight": 1,
+  "specialty": "Dermatologist",
+  "keywords": [
+   "itching",
+   "itchy",
+   "khujli"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "acne",
+  "region": "skin",
+  "en": "Pimples / acne",
+  "hi": "मुँहासे",
+  "hing": "Muhaase",
+  "weight": 1,
+  "specialty": "Dermatologist",
+  "keywords": [
+   "acne",
+   "pimple",
+   "muhase"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "hair_fall",
+  "region": "skin",
+  "en": "Hair fall / dandruff",
+  "hi": "बाल झड़ना / रूसी",
+  "hing": "Baal jhadna / roosi",
+  "weight": 1,
+  "specialty": "Dermatologist",
+  "keywords": [
+   "hair fall",
+   "hairfall",
+   "baal jhadna",
+   "dandruff",
+   "roosi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "boil",
+  "region": "skin",
+  "en": "Boil, pus or skin infection",
+  "hi": "फोड़ा / पीप / त्वचा संक्रमण",
+  "hing": "Fodha / peep / skin infection",
+  "weight": 2,
+  "specialty": "Dermatologist",
+  "keywords": [
+   "boil",
+   "pus",
+   "fodha",
+   "skin infection"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "burn_wound",
+  "region": "skin",
+  "en": "Burn or cut wound",
+  "hi": "जलना / कटना",
+  "hing": "Jalna / katna",
+  "weight": 3,
+  "specialty": "General Physician",
+  "keywords": [
+   "burn",
+   "cut wound",
+   "jal gaya",
+   "kat gaya"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "allergy_swelling",
+  "region": "skin",
+  "en": "Swelling of lips, face or throat",
+  "hi": "होंठ / चेहरे / गले में सूजन",
+  "hing": "Hont / chehre / gale mein sujan",
+  "weight": 5,
+  "specialty": "General Physician",
+  "keywords": [
+   "lip swelling",
+   "throat swelling",
+   "face swelling",
+   "hont sujan"
+  ],
+  "redFlag": true
+ },
+ {
+  "id": "fever",
+  "region": "general",
+  "en": "Fever",
+  "hi": "बुखार",
+  "hing": "Bukhar",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "fever",
+   "bukhar",
+   "bukhaar",
+   "temperature"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "high_fever",
+  "region": "general",
+  "en": "High fever (above 103°F / 39.5°C)",
+  "hi": "तेज़ बुखार (103°F से ऊपर)",
+  "hing": "Tez bukhar (103°F se upar)",
+  "weight": 4,
+  "specialty": "General Physician",
+  "keywords": [
+   "high fever",
+   "tez bukhar",
+   "103 fever"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "chills",
+  "region": "general",
+  "en": "Chills / shivering",
+  "hi": "कंपकंपी / ठंड लगना",
+  "hing": "Kampkampi / thand lagna",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "chills",
+   "shivering",
+   "thand lagna",
+   "kampkampi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "fatigue",
+  "region": "general",
+  "en": "Tiredness or weakness",
+  "hi": "थकान / कमज़ोरी",
+  "hing": "Thakan / kamzori",
+  "weight": 1,
+  "specialty": "General Physician",
+  "keywords": [
+   "fatigue",
+   "tired",
+   "weakness",
+   "thakan",
+   "kamzori"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "appetite_loss",
+  "region": "general",
+  "en": "Loss of appetite",
+  "hi": "भूख न लगना",
+  "hing": "Bhookh na lagna",
+  "weight": 1,
+  "specialty": "General Physician",
+  "keywords": [
+   "loss of appetite",
+   "bhookh nahi",
+   "bhuk nahi"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "weight_loss",
+  "region": "general",
+  "en": "Unexplained weight loss",
+  "hi": "बिना कारण वज़न घटना",
+  "hing": "Bina wajah wazan ghatna",
+  "weight": 3,
+  "specialty": "General Physician",
+  "keywords": [
+   "weight loss",
+   "wajan kam",
+   "weight kam"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "thirst",
+  "region": "general",
+  "en": "Very thirsty, dry mouth",
+  "hi": "बहुत प्यास लगना",
+  "hing": "Bahut pyaas lagna",
+  "weight": 2,
+  "specialty": "Diabetologist",
+  "keywords": [
+   "very thirsty",
+   "excessive thirst",
+   "pyaas zyada",
+   "pyas zyada"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "night_sweats",
+  "region": "general",
+  "en": "Night sweats",
+  "hi": "रात में पसीना",
+  "hing": "Raat mein paseena",
+  "weight": 2,
+  "specialty": "General Physician",
+  "keywords": [
+   "night sweat",
+   "raat me pasina"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "jaundice",
+  "region": "general",
+  "en": "Yellow skin or eyes",
+  "hi": "त्वचा / आँखें पीली",
+  "hing": "Skin / aankhein peeli",
+  "weight": 3,
+  "specialty": "Gastroenterologist",
+  "keywords": [
+   "jaundice",
+   "yellow eyes",
+   "peela",
+   "peeliya"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "anxiety",
+  "region": "mind",
+  "en": "Anxiety / restlessness",
+  "hi": "घबराहट / बेचैनी",
+  "hing": "Ghabrahat / bechaini",
+  "weight": 2,
+  "specialty": "Psychiatrist",
+  "keywords": [
+   "anxiety",
+   "anxious",
+   "ghabrahat",
+   "bechaini",
+   "panic"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "low_mood",
+  "region": "mind",
+  "en": "Feeling low or hopeless",
+  "hi": "उदासी / निराशा",
+  "hing": "Udaasi / nirasha",
+  "weight": 3,
+  "specialty": "Psychiatrist",
+  "keywords": [
+   "depressed",
+   "low mood",
+   "udaas",
+   "udasi",
+   "hopeless"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "insomnia",
+  "region": "mind",
+  "en": "Trouble sleeping",
+  "hi": "नींद न आना",
+  "hing": "Neend na aana",
+  "weight": 2,
+  "specialty": "Psychiatrist",
+  "keywords": [
+   "insomnia",
+   "cannot sleep",
+   "neend nahi",
+   "neend na aana"
+  ],
+  "redFlag": false
+ },
+ {
+  "id": "self_harm",
+  "region": "mind",
+  "en": "Thoughts of harming myself",
+  "hi": "खुद को नुकसान पहुँचाने के विचार",
+  "hing": "Khud ko nuksan pahunchane ke vichar",
+  "weight": 5,
+  "specialty": "Psychiatrist",
+  "keywords": [
+   "suicide",
+   "kill myself",
+   "khudkushi",
+   "jeena nahi",
+   "harm myself",
+   "khud ko nuksan"
+  ],
+  "redFlag": true
+ }
+]

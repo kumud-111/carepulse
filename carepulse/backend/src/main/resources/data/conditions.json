@@ -1,0 +1,760 @@
+[
+ {
+  "id": "common_cold",
+  "name": "Common cold",
+  "hing": "Aam sardi-zukaam",
+  "hi": "आम सर्दी-ज़ुकाम",
+  "symptoms": [
+   "runny_nose",
+   "sore_throat",
+   "cough",
+   "fatigue"
+  ],
+  "about": "A mild viral infection of nose and throat. Usually settles by itself in 5–7 days.",
+  "homeCare": [
+   "Rest and drink plenty of warm fluids",
+   "Steam inhalation and warm salt-water gargles",
+   "Eat light, home-cooked food"
+  ],
+  "seeDoctorIf": [
+   "Fever lasts more than 3 days",
+   "Breathing becomes difficult",
+   "Symptoms last more than 10 days"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Very common"
+ },
+ {
+  "id": "viral_fever",
+  "name": "Viral fever / flu",
+  "hing": "Viral bukhar / flu",
+  "hi": "वायरल बुखार / फ्लू",
+  "symptoms": [
+   "fever",
+   "chills",
+   "muscle_pain",
+   "fatigue",
+   "headache"
+  ],
+  "about": "Fever with body ache, usually caused by a virus. Most people recover in 3–5 days with rest.",
+  "homeCare": [
+   "Rest, drink water, ORS and coconut water",
+   "Sponge with lukewarm water if the temperature is high",
+   "Take fever medicine only as advised by a doctor or as per the label"
+  ],
+  "seeDoctorIf": [
+   "Fever above 103°F or lasting more than 3 days",
+   "Rash, severe headache or pain behind the eyes (dengue is common in monsoon)",
+   "Child, pregnant woman or elderly person with fever"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Very common"
+ },
+ {
+  "id": "pharyngitis",
+  "name": "Sore throat",
+  "hing": "Gale mein kharash",
+  "hi": "गले में खराश",
+  "symptoms": [
+   "sore_throat",
+   "fever",
+   "cough"
+  ],
+  "about": "Throat inflammation, most often viral. Sometimes bacterial and then needs a doctor's treatment.",
+  "homeCare": [
+   "Warm salt-water gargles",
+   "Warm tea with honey and ginger (not for babies under 1 year)",
+   "Avoid cold drinks and dust"
+  ],
+  "seeDoctorIf": [
+   "Cannot swallow",
+   "White patches on the throat",
+   "Pain lasts more than 5 days"
+  ],
+  "specialty": "ENT",
+  "commonness": "Very common"
+ },
+ {
+  "id": "allergic_rhinitis",
+  "name": "Allergic cold / hay fever",
+  "hing": "Allergy wali sardi",
+  "hi": "एलर्जी वाली सर्दी",
+  "symptoms": [
+   "runny_nose",
+   "itching",
+   "watery_eyes",
+   "red_eyes"
+  ],
+  "about": "Sneezing and watery nose or eyes triggered by dust, pollen or smoke. Often worse in mornings.",
+  "homeCare": [
+   "Avoid dust, wash bedsheets weekly in hot water",
+   "Wear a mask in dusty places",
+   "Saline nasal rinse"
+  ],
+  "seeDoctorIf": [
+   "Symptoms every week for a month",
+   "Wheezing or breathing trouble"
+  ],
+  "specialty": "ENT",
+  "commonness": "Very common"
+ },
+ {
+  "id": "sinusitis",
+  "name": "Sinusitis",
+  "hing": "Sinus",
+  "hi": "साइनस",
+  "symptoms": [
+   "runny_nose",
+   "headache",
+   "eye_pain",
+   "fever"
+  ],
+  "about": "Blocked, inflamed sinuses causing pressure around the nose, forehead and cheeks.",
+  "homeCare": [
+   "Steam inhalation twice a day",
+   "Warm compress on the face",
+   "Drink plenty of fluids"
+  ],
+  "seeDoctorIf": [
+   "Pain with high fever",
+   "Symptoms last more than 10 days",
+   "Swelling around the eyes"
+  ],
+  "specialty": "ENT",
+  "commonness": "Common"
+ },
+ {
+  "id": "bronchitis",
+  "name": "Cough / bronchitis",
+  "hing": "Khaansi / bronchitis",
+  "hi": "खाँसी / ब्रोंकाइटिस",
+  "symptoms": [
+   "cough",
+   "wheezing",
+   "fatigue",
+   "fever"
+  ],
+  "about": "Irritated airways causing lingering cough, sometimes with phlegm.",
+  "homeCare": [
+   "Warm fluids and honey (not for babies under 1 year)",
+   "Avoid smoke and dust",
+   "Rest"
+  ],
+  "seeDoctorIf": [
+   "Cough longer than 2–3 weeks",
+   "Blood in sputum",
+   "Breathlessness"
+  ],
+  "specialty": "Pulmonologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "asthma",
+  "name": "Asthma flare-up",
+  "hing": "Dama / asthma",
+  "hi": "दमा / अस्थमा",
+  "symptoms": [
+   "wheezing",
+   "breathless",
+   "cough"
+  ],
+  "about": "Narrowed airways causing wheeze, cough and tight chest, often at night or with dust and cold air.",
+  "homeCare": [
+   "Sit upright and stay calm",
+   "Use your prescribed inhaler as your doctor has told you",
+   "Stay away from smoke and dust"
+  ],
+  "seeDoctorIf": [
+   "Not relieved by your inhaler",
+   "Cannot speak in full sentences — this is an emergency"
+  ],
+  "specialty": "Pulmonologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "acidity",
+  "name": "Acidity / GERD",
+  "hing": "Acidity",
+  "hi": "एसिडिटी",
+  "symptoms": [
+   "acidity",
+   "nausea",
+   "bloating",
+   "stomach_pain"
+  ],
+  "about": "Stomach acid moving up, causing burning in chest or throat, mostly after heavy or spicy meals.",
+  "homeCare": [
+   "Eat small, light meals; avoid lying down right after eating",
+   "Cut down on spicy, oily food, tea and coffee",
+   "Raise the head of the bed slightly"
+  ],
+  "seeDoctorIf": [
+   "Burning most days for 2+ weeks",
+   "Trouble swallowing",
+   "Black stool or vomiting blood"
+  ],
+  "specialty": "Gastroenterologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "gastroenteritis",
+  "name": "Loose motions / food infection",
+  "hing": "Dast / pet ka infection",
+  "hi": "दस्त / पेट का संक्रमण",
+  "symptoms": [
+   "diarrhea",
+   "vomiting",
+   "stomach_pain",
+   "nausea",
+   "fever"
+  ],
+  "about": "Infection from contaminated food or water. Dehydration is the main danger.",
+  "homeCare": [
+   "Sip ORS every few minutes",
+   "Eat banana, rice, curd, khichdi",
+   "Wash hands; drink boiled or filtered water"
+  ],
+  "seeDoctorIf": [
+   "Signs of dehydration: very dry mouth, little urine, dizziness",
+   "Blood in stool",
+   "Diarrhea longer than 2 days, or any infant/elderly person with diarrhea"
+  ],
+  "specialty": "Gastroenterologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "constipation",
+  "name": "Constipation",
+  "hing": "Kabz",
+  "hi": "कब्ज़",
+  "symptoms": [
+   "constipation",
+   "bloating",
+   "stomach_pain"
+  ],
+  "about": "Hard or infrequent stools, usually from low fibre and little water.",
+  "homeCare": [
+   "More water, fruit, vegetables, whole grains",
+   "Walk daily",
+   "Do not strain for long"
+  ],
+  "seeDoctorIf": [
+   "Blood in stool",
+   "Lasts more than 2 weeks",
+   "Unexplained weight loss"
+  ],
+  "specialty": "Gastroenterologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "uti",
+  "name": "Urine infection (UTI)",
+  "hing": "Peshab ka infection (UTI)",
+  "hi": "पेशाब का संक्रमण",
+  "symptoms": [
+   "burning_urine",
+   "frequent_urine",
+   "stomach_pain",
+   "fever"
+  ],
+  "about": "Bacterial infection of the urine passage. Needs a urine test and usually antibiotics from a doctor.",
+  "homeCare": [
+   "Drink plenty of water",
+   "Do not hold urine",
+   "Do not self-medicate with antibiotics"
+  ],
+  "seeDoctorIf": [
+   "Fever, back pain or blood in urine",
+   "Pregnant women with these symptoms",
+   "Symptoms not better in 1–2 days"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Common"
+ },
+ {
+  "id": "tension_headache",
+  "name": "Tension headache",
+  "hing": "Tanav wala sir dard",
+  "hi": "तनाव वाला सिरदर्द",
+  "symptoms": [
+   "headache",
+   "neck_pain",
+   "anxiety",
+   "insomnia"
+  ],
+  "about": "Dull band-like headache from stress, poor sleep, long screen time or skipped meals.",
+  "homeCare": [
+   "Drink water, eat on time, sleep 7–8 hours",
+   "Rest your eyes every 20 minutes of screen time",
+   "Gentle neck stretches"
+  ],
+  "seeDoctorIf": [
+   "Headache daily for a week",
+   "Vomiting, vision changes or fever with headache",
+   "Sudden severe headache — emergency"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Very common"
+ },
+ {
+  "id": "migraine",
+  "name": "Migraine",
+  "hing": "Migraine",
+  "hi": "माइग्रेन",
+  "symptoms": [
+   "migraine",
+   "headache",
+   "nausea",
+   "blurry_vision"
+  ],
+  "about": "Throbbing, often one-sided headache with nausea and sensitivity to light or sound.",
+  "homeCare": [
+   "Rest in a dark, quiet room",
+   "Note triggers: sleep loss, hunger, strong smells",
+   "Keep a headache diary for the doctor"
+  ],
+  "seeDoctorIf": [
+   "More than 2 attacks a month",
+   "New pattern or worsening attacks"
+  ],
+  "specialty": "Neurologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "conjunctivitis",
+  "name": "Pink eye (conjunctivitis)",
+  "hing": "Aankh aana",
+  "hi": "आँख आना",
+  "symptoms": [
+   "red_eyes",
+   "watery_eyes",
+   "itching"
+  ],
+  "about": "Red, sticky or watery eyes. Viral and bacterial types spread easily.",
+  "homeCare": [
+   "Wash hands often; do not share towels",
+   "Clean the eyes with clean, cooled boiled water",
+   "Avoid rubbing and avoid contact lenses"
+  ],
+  "seeDoctorIf": [
+   "Pain or reduced vision",
+   "Pus-like discharge",
+   "Child with red eye"
+  ],
+  "specialty": "Ophthalmologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "eye_strain",
+  "name": "Eye strain",
+  "hing": "Aankhon ki thakan",
+  "hi": "आँखों की थकान",
+  "symptoms": [
+   "eye_pain",
+   "blurry_vision",
+   "headache",
+   "red_eyes"
+  ],
+  "about": "Tired, dry eyes from long phone or computer use.",
+  "homeCare": [
+   "Follow the 20-20-20 rule: every 20 minutes look 20 feet away for 20 seconds",
+   "Blink often, adjust screen brightness",
+   "Get your eyes tested once a year"
+  ],
+  "seeDoctorIf": [
+   "Vision keeps getting worse",
+   "Eye pain with redness"
+  ],
+  "specialty": "Ophthalmologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "ear_infection",
+  "name": "Ear infection",
+  "hing": "Kaan ka infection",
+  "hi": "कान का संक्रमण",
+  "symptoms": [
+   "ear_pain",
+   "fever"
+  ],
+  "about": "Pain and sometimes discharge, common after colds or swimming.",
+  "homeCare": [
+   "Keep the ear dry",
+   "Do not put oil, drops or buds in the ear",
+   "Warm compress outside the ear"
+  ],
+  "seeDoctorIf": [
+   "Discharge from the ear",
+   "Hearing loss",
+   "Child pulling at ear with fever"
+  ],
+  "specialty": "ENT",
+  "commonness": "Common"
+ },
+ {
+  "id": "dental_problem",
+  "name": "Toothache / cavity",
+  "hing": "Daant dard / cavity",
+  "hi": "दाँत दर्द / कैविटी",
+  "symptoms": [
+   "toothache"
+  ],
+  "about": "Pain from a cavity, infection or gum disease.",
+  "homeCare": [
+   "Rinse with warm salt water",
+   "Brush twice a day and floss",
+   "Avoid very hot, cold or sweet food"
+  ],
+  "seeDoctorIf": [
+   "Swelling of the face or jaw",
+   "Pain lasts more than 2 days"
+  ],
+  "specialty": "Dentist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "acne",
+  "name": "Acne",
+  "hing": "Muhaase",
+  "hi": "मुँहासे",
+  "symptoms": [
+   "acne",
+   "itching"
+  ],
+  "about": "Blocked skin pores, common in teens and adults, often linked with oil, stress and hormones.",
+  "homeCare": [
+   "Wash face twice a day with a mild cleanser",
+   "Do not squeeze pimples",
+   "Avoid heavy oily creams"
+  ],
+  "seeDoctorIf": [
+   "Painful deep cysts or scarring",
+   "No improvement in 6–8 weeks"
+  ],
+  "specialty": "Dermatologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "fungal_infection",
+  "name": "Fungal infection / ringworm",
+  "hing": "Fungal infection / daad",
+  "hi": "फंगल इन्फेक्शन / दाद",
+  "symptoms": [
+   "itching",
+   "rash"
+  ],
+  "about": "Itchy, ring-shaped red patches, worse in sweaty folds of the skin and in humid weather.",
+  "homeCare": [
+   "Keep skin clean and dry",
+   "Wear loose cotton clothes",
+   "Do not share towels; avoid steroid creams unless a doctor prescribes them"
+  ],
+  "seeDoctorIf": [
+   "Spreading fast",
+   "No relief in a week",
+   "Weak immunity or diabetes"
+  ],
+  "specialty": "Dermatologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "eczema",
+  "name": "Eczema / dermatitis",
+  "hing": "Eczema",
+  "hi": "एक्ज़िमा",
+  "symptoms": [
+   "rash",
+   "itching"
+  ],
+  "about": "Dry, itchy, inflamed skin that comes and goes.",
+  "homeCare": [
+   "Moisturise right after bath",
+   "Use mild soap, avoid hot water",
+   "Wear soft cotton"
+  ],
+  "seeDoctorIf": [
+   "Skin cracked, oozing or infected",
+   "Sleep disturbed by itching"
+  ],
+  "specialty": "Dermatologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "hair_fall",
+  "name": "Hair fall",
+  "hing": "Baal jhadna",
+  "hi": "बाल झड़ना",
+  "symptoms": [
+   "hair_fall"
+  ],
+  "about": "Often linked to stress, low iron, thyroid problems or poor diet.",
+  "homeCare": [
+   "Protein-rich food and enough iron",
+   "Gentle hair care, avoid tight styles",
+   "Manage stress and sleep"
+  ],
+  "seeDoctorIf": [
+   "Patchy bald spots",
+   "Sudden heavy hair loss"
+  ],
+  "specialty": "Dermatologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "back_strain",
+  "name": "Back strain",
+  "hing": "Kamar dard",
+  "hi": "कमर दर्द",
+  "symptoms": [
+   "back_pain",
+   "muscle_pain"
+  ],
+  "about": "Usually from posture, lifting or long sitting. Most cases improve in 1–2 weeks.",
+  "homeCare": [
+   "Stay gently active — long bed rest makes it worse",
+   "Hot or cold pack for 15 minutes",
+   "Fix your sitting posture"
+  ],
+  "seeDoctorIf": [
+   "Pain going down the leg with numbness",
+   "Loss of bladder or bowel control — emergency",
+   "Pain after a fall or injury"
+  ],
+  "specialty": "Orthopedic",
+  "commonness": "Very common"
+ },
+ {
+  "id": "neck_strain",
+  "name": "Neck / shoulder strain",
+  "hing": "Gardan / kandhe ka dard",
+  "hi": "गर्दन / कंधे का दर्द",
+  "symptoms": [
+   "neck_pain",
+   "headache",
+   "numbness"
+  ],
+  "about": "Stiffness from phone, laptop or bad sleeping position.",
+  "homeCare": [
+   "Raise screens to eye level",
+   "Gentle neck and shoulder stretches",
+   "Use a thin pillow"
+  ],
+  "seeDoctorIf": [
+   "Arm numbness or weakness",
+   "Pain after an accident"
+  ],
+  "specialty": "Orthopedic",
+  "commonness": "Very common"
+ },
+ {
+  "id": "arthritis",
+  "name": "Joint pain / arthritis",
+  "hing": "Jodon ka dard / gathiya",
+  "hi": "जोड़ों का दर्द / गठिया",
+  "symptoms": [
+   "joint_pain",
+   "muscle_pain",
+   "fatigue"
+  ],
+  "about": "Pain and stiffness of joints, especially knees, hands and hips.",
+  "homeCare": [
+   "Keep moving with gentle exercise",
+   "Maintain a healthy weight",
+   "Warm compress for stiffness"
+  ],
+  "seeDoctorIf": [
+   "Swollen, hot or red joint",
+   "Morning stiffness over 30 minutes",
+   "Pain affecting daily work"
+  ],
+  "specialty": "Orthopedic",
+  "commonness": "Common"
+ },
+ {
+  "id": "sprain",
+  "name": "Muscle or ankle sprain",
+  "hing": "Moch",
+  "hi": "मोच",
+  "symptoms": [
+   "injury",
+   "joint_pain",
+   "leg_swelling"
+  ],
+  "about": "Stretched ligaments or muscles after a twist or fall.",
+  "homeCare": [
+   "Rest, ice for 15 minutes, light compression, raise the limb",
+   "Avoid heavy use for a few days"
+  ],
+  "seeDoctorIf": [
+   "Cannot put weight on it",
+   "Obvious deformity or severe swelling",
+   "Numbness"
+  ],
+  "specialty": "Orthopedic",
+  "commonness": "Common"
+ },
+ {
+  "id": "anemia",
+  "name": "Anaemia (low blood)",
+  "hing": "Khoon ki kami",
+  "hi": "खून की कमी",
+  "symptoms": [
+   "fatigue",
+   "dizziness",
+   "palpitations",
+   "hair_fall"
+  ],
+  "about": "Low haemoglobin, often from low iron. Common in women and teens.",
+  "homeCare": [
+   "Eat iron-rich foods: leafy greens, jaggery, dates, lentils, with a source of vitamin C",
+   "Get a blood test (CBC) before taking any supplements"
+  ],
+  "seeDoctorIf": [
+   "Breathlessness, fainting or chest pain",
+   "Heavy periods"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Common"
+ },
+ {
+  "id": "diabetes_signs",
+  "name": "Possible high blood sugar",
+  "hing": "Sugar badhne ke lakshan",
+  "hi": "शुगर बढ़ने के लक्षण",
+  "symptoms": [
+   "thirst",
+   "frequent_urine",
+   "fatigue",
+   "weight_loss",
+   "blurry_vision"
+  ],
+  "about": "These signs can mean high blood sugar. Only a blood test can confirm.",
+  "homeCare": [
+   "Get a fasting sugar and HbA1c test",
+   "Cut sugary drinks; walk daily"
+  ],
+  "seeDoctorIf": [
+   "Very high thirst with vomiting or confusion — go to hospital",
+   "Slow-healing wounds"
+  ],
+  "specialty": "Diabetologist",
+  "commonness": "Common"
+ },
+ {
+  "id": "low_bp",
+  "name": "Low blood pressure / dehydration",
+  "hing": "Low BP / paani ki kami",
+  "hi": "लो बीपी / पानी की कमी",
+  "symptoms": [
+   "dizziness",
+   "fatigue",
+   "fainting"
+  ],
+  "about": "Dizziness on standing, often from dehydration, skipped meals or heat.",
+  "homeCare": [
+   "Drink water with a pinch of salt and sugar (ORS)",
+   "Rise slowly from lying down",
+   "Do not skip meals"
+  ],
+  "seeDoctorIf": [
+   "Fainting",
+   "Dizziness with chest pain or palpitations"
+  ],
+  "specialty": "General Physician",
+  "commonness": "Common"
+ },
+ {
+  "id": "anxiety_stress",
+  "name": "Anxiety / stress",
+  "hing": "Chinta / stress",
+  "hi": "चिंता / तनाव",
+  "symptoms": [
+   "anxiety",
+   "insomnia",
+   "palpitations",
+   "headache"
+  ],
+  "about": "Constant worry, restlessness, racing heart or poor sleep.",
+  "homeCare": [
+   "Slow breathing: in for 4 counts, out for 6, for 5 minutes",
+   "Regular sleep and walks, less caffeine",
+   "Talk to someone you trust"
+  ],
+  "seeDoctorIf": [
+   "Daily worry for 2+ weeks",
+   "Panic attacks",
+   "Thoughts of self-harm — call Tele-MANAS 14416 or 112 now"
+  ],
+  "specialty": "Psychiatrist",
+  "commonness": "Common"
+ },
+ {
+  "id": "insomnia",
+  "name": "Poor sleep",
+  "hing": "Neend ki samasya",
+  "hi": "नींद की समस्या",
+  "symptoms": [
+   "insomnia",
+   "anxiety",
+   "fatigue"
+  ],
+  "about": "Trouble falling or staying asleep.",
+  "homeCare": [
+   "Fixed sleep and wake time",
+   "No phone for 1 hour before bed",
+   "Avoid tea or coffee after 4 pm"
+  ],
+  "seeDoctorIf": [
+   "More than 3 weeks",
+   "Daytime sleepiness affecting work"
+  ],
+  "specialty": "Psychiatrist",
+  "commonness": "Common"
+ },
+ {
+  "id": "menstrual_cramps",
+  "name": "Period cramps",
+  "hing": "Period cramps",
+  "hi": "माहवारी का दर्द",
+  "symptoms": [
+   "period_pain",
+   "back_pain",
+   "nausea"
+  ],
+  "about": "Lower belly pain before or during periods.",
+  "homeCare": [
+   "Hot-water bag on the lower belly",
+   "Light walking and stretching",
+   "Warm drinks"
+  ],
+  "seeDoctorIf": [
+   "Pain stops you from daily life",
+   "Very heavy bleeding",
+   "Periods suddenly irregular"
+  ],
+  "specialty": "Gynecologist",
+  "commonness": "Very common"
+ },
+ {
+  "id": "jaundice",
+  "name": "Jaundice",
+  "hing": "Peeliya",
+  "hi": "पीलिया",
+  "symptoms": [
+   "jaundice",
+   "appetite_loss",
+   "fatigue",
+   "nausea"
+  ],
+  "about": "Yellow skin or eyes from liver or bile problems. Needs a liver test.",
+  "homeCare": [
+   "Rest, drink water, eat light food",
+   "Avoid alcohol and oily food; do not take herbal remedies blindly"
+  ],
+  "seeDoctorIf": [
+   "See a doctor the same day — jaundice always needs a test"
+  ],
+  "specialty": "Gastroenterologist",
+  "commonness": "Less common"
+ }
+]
